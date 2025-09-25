@@ -43,14 +43,14 @@ URL7=https://felias-fogg.github.io/dw-tools/${FILE7}
 URL8=https://felias-fogg.github.io/dw-tools/${FILE8}
 
 # Download files
-wget --no-verbose $URL1
-wget --no-verbose $URL2
-wget --no-verbose $URL3
-wget --no-verbose $URL4
-wget --no-verbose $URL5
-wget --no-verbose $URL6
-wget --no-verbose $URL7
-wget --no-verbose $URL8
+wget  $URL1
+wget  $URL2
+wget  $URL3
+wget  $URL4
+wget  $URL5
+wget  $URL6
+wget  $URL7
+wget  $URL8
 
 SIZE1=$(wc -c $FILE1 | awk '{print $1}')
 SIZE2=$(wc -c $FILE2 | awk '{print $1}')

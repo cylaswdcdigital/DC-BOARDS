@@ -34,12 +34,12 @@ URL5=http://downloads.arduino.cc/tools/${FILE5}
 URL6=http://downloads.arduino.cc/tools/${FILE6}
 
 # Download files
-wget --no-verbose $URL1
-wget --no-verbose $URL2
-wget --no-verbose $URL3
-wget --no-verbose $URL4
-wget --no-verbose $URL5
-wget --no-verbose $URL6
+wget  $URL1
+wget  $URL2
+wget  $URL3
+wget  $URL4
+wget  $URL5
+wget  $URL6
 
 SIZE1=$(wc -c $FILE1 | awk '{print $1}')
 SIZE2=$(wc -c $FILE2 | awk '{print $1}')
