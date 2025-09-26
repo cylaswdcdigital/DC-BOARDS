@@ -1,4 +1,3 @@
-# Menu options
 ######################
 # ATmega1284P
 ######################
@@ -64,49 +63,3 @@
 168.build.board=IES_168A
 168.build.core=arduino:arduino
 168.build.variant=arduino:standard
-
-
-
-
-#############################
-#### ATmega328/A/P/PA/PB ####
-#############################
-
-# General
-328.name=ATmega328
-328.upload.tool=avrdude
-328.upload.maximum_data_size=2048
-328.bootloader.tool=avrdude
-328.bootloader.low_fuses=0xFF
-328.bootloader.high_fuses=0xD1
-328.bootloader.extended_fuses=0xFD
-328.bootloader.unlock_bits=0x3F
-328.bootloader.lock_bits=0x2F
-328.build.core=MCUdude_corefiles
-328.build.board=AVR_ATmega328
-328.build.bootloader_led=led+b5
-328.build.extra_flags={build.clkpr}
-
-
-#############################
-#### ATmega168/A/P/PA/PB ####
-#############################
-
-# General
-168.name=ATmega168
-168.upload.tool=avrdude
-168.upload.maximum_size=15872
-168.upload.maximum_data_size=1024
-168.bootloader.tool=avrdude
-168.bootloader.low_fuses=0xF7
-168.bootloader.high_fuses=0xDF
-168.bootloader.extended_fuses=0xFD
-168.bootloader.unlock_bits=0x3F
-168.bootloader.lock_bits=0x0F
-168.build.core=MCUdude_corefiles
-168.build.board=AVR_ATmega168
-168.build.bootloader_led=led+b5
-168.build.extra_flags={build.clkpr}
-
-
-
