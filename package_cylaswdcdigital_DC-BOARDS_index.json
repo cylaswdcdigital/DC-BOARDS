@@ -33,7 +33,7 @@
               "packager": "MiniCore",
               "name": "avrdude",
               "version": "8.0-arduino.1"
-            },
+            }
           ]
         }],
             
@@ -63,6 +63,6 @@
               "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino7-i686-w64-mingw32.zip"
             }
           ]
-        },
+        }
     ]
 }
