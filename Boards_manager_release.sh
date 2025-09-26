@@ -16,7 +16,7 @@ REPOSITORY=DC-BOARDS      # Github repo
 DWTOOLSVERSION=2.3.2
 
 # Get the download URL for the latest release from Github
-DOWNLOAD_URL=$(curl -s https://api.github.com/repos/$AUTHOR/$REPOSITORY/releases/latest | grep "tarball_url" | awk -F\" '{print $4}')
+DOWNLOAD_URL=$(curl -s https://github.com/$AUTHOR/$REPOSITORY/tarball/1.0)
 
 # Download file
 wget  $DOWNLOAD_URL
