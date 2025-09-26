@@ -28,8 +28,67 @@
 //      PWM (D 9) PD6 20 |        | 21 PD7 (D 31) PWM
 //                       +--------+
 //
+#define MINICORE
+#define MCUDUDE_MINICORE
 
 #define MIGHTY_1284P_VARIANT "BOBUINO"
+
+#if defined(__AVR_ATmega48__)
+#define __AVR_ATMEGA48A__
+#define __AVR_ATMEGA48P__
+#define __AVR_ATMEGA48PA__
+#elif defined(__AVR_ATmega48A__)
+#define __AVR_ATMEGA48__
+#define __AVR_ATMEGA48P__
+#define __AVR_ATMEGA48PA__
+#elif defined(__AVR_ATmega48P__)
+#define __AVR_ATMEGA48__
+#define __AVR_ATMEGA48A__
+#define __AVR_ATMEGA48PA__
+#elif defined(__AVR_ATmega48PA__)
+#define __AVR_ATMEGA48__
+#define __AVR_ATMEGA48A__
+#define __AVR_ATMEGA48P__
+
+#elif defined(__AVR_ATmega8__)
+#define __AVR_ATMEGA8A__
+#elif defined(__AVR_ATmega8A__)
+#define __AVR_ATMEGA8__
+
+#elif defined(__AVR_ATmega88__)
+#define __AVR_ATMEGA88A__
+#define __AVR_ATMEGA88P__
+#define __AVR_ATMEGA88PA__
+#elif defined(__AVR_ATmega88A__)
+#define __AVR_ATMEGA88__
+#define __AVR_ATMEGA88P__
+#define __AVR_ATMEGA88PA__
+#elif defined(__AVR_ATmega88P__)
+#define __AVR_ATMEGA88__
+#define __AVR_ATMEGA88A__
+#define __AVR_ATMEGA88PA__
+#elif defined(__AVR_ATmega88PA__)
+#define __AVR_ATMEGA88__
+#define __AVR_ATMEGA88A__
+#define __AVR_ATMEGA88P__
+
+#elif defined(__AVR_ATmega168__)
+#define __AVR_ATMEGA168A__
+#define __AVR_ATMEGA168P__
+#define __AVR_ATMEGA168PA__
+#elif defined(__AVR_ATmega168A__)
+#define __AVR_ATMEGA168__
+#define __AVR_ATMEGA168P__
+#define __AVR_ATMEGA168PA__
+#elif defined(__AVR_ATmega168P__)
+#define __AVR_ATMEGA168__
+#define __AVR_ATMEGA168A__
+#define __AVR_ATMEGA168PA__
+#elif defined(__AVR_ATmega168PA__)
+#define __AVR_ATMEGA168__
+#define __AVR_ATMEGA168A__
+#define __AVR_ATMEGA168P__
+#endif
 
 #define NUM_DIGITAL_PINS            32
 #define NUM_ANALOG_INPUTS           8
