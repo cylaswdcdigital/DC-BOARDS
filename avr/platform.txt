@@ -1,5 +1,5 @@
-name=IES AVR Boards
-version=1.0.0
+name=DC-BOARDS
+version=2.0.0
 
 # AVR Uploader/Programmers tools
 # ------------------------------
