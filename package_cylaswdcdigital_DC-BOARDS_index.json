@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "ies",
+            "name": "DC-BOARDS",
             "maintainer": "DC-Digital",
             "website": "https://dc-digital.com",
             "email": "cylaswdcdigital@gmail.com",
@@ -13,8 +13,8 @@
           "category": "Contributed",
           "url": "https://cylaswdcdigital.github.io/DC-BOARDS/DC-BOARDS-2.0.zip",
           "archiveFileName": "DC-BOARDS-2.0.zip",
-          "checksum": "SHA-256:3f7295c7355b0f72eab50b48abf6b0f8eb64dca81f4d588912bbfda55b228c1c",
-          "size": "13,502,570",
+          "checksum": "SHA-256:1a3c0d749ea6a762ff1521de6445454565e2bfd2463da709c14dd6ad2a903d36",
+          "size": "13,503,449",
           "boards": [
             {
               "name": "ATmega328/P/PA/A"
