@@ -1,0 +1,68 @@
+{
+    "packages": [
+        {
+            "name": "ies",
+            "maintainer": "DC-Digital",
+            "website": "https://dc-digital.com",
+            "email": "cylaswdcdigital@gmail.com",
+            
+            "platforms": [  {
+          "name": "DC-BOARDS",
+          "architecture": "avr",
+          "version": "2.0",
+          "category": "Contributed",
+          "url": "https://cylaswdcdigital.github.io/DC-BOARDS/DC-BOARDS-2.0.tar.gz",
+          "archiveFileName": "DC-BOARDS-2.0.tar.gz",
+          "checksum": "SHA-256:4cb90856eb2dbcff0f37307560738b4523e7f44777cdd63a4a3446332bddcde6",
+          "size": "27,222,614",
+          "boards": [
+            {
+              "name": "ATmega328/P/PA/A"
+            },
+            {
+              "name": "ATmega168/P/PA/A"
+            }
+          ],
+          "toolsDependencies": [
+                {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MiniCore",
+              "name": "avrdude",
+              "version": "8.0-arduino.1"
+            },
+          ]
+        }],
+            
+            "tools": [
+                 {
+          "name": "avrdude",
+          "version": "8.0-arduino.1",
+          "systems": [
+              {
+              "size": "1890359",
+              "checksum": "SHA-256:833aa1a66a8e70cd597fcfdbd7e559a91a00eca1d7aa3be2ce9bcadf7ccb987c",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude_8.0-arduino.1_Windows_32bit.tar.gz",
+              "url": "http://downloads.arduino.cc/tools/avrdude_8.0-arduino.1_Windows_32bit.tar.gz"
+            }
+            ]
+        }, 
+                {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-arduino7",
+          "systems": [
+            {
+              "size": "52519412",
+              "checksum": "SHA-256:a54f64755fff4cb792a1495e5defdd789902a2a3503982e81b898299cf39800e",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-arduino7-i686-w64-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino7-i686-w64-mingw32.zip"
+            }
+          ]
+        },
+    ]
+}
