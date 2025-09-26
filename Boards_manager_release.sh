@@ -7,19 +7,20 @@
 ## Requires wget, jq and a bash environment             ##
 ##                                                      ##
 ##########################################################
+DWTOOLSVERSION=2.3.2
+REALAUTHOR=MCUdude       # real author!
 
 # Change these to match your repo
-AUTHOR=MCUdude       # Github username
-REALAUTHOR=MCUdude       # real author!
-REPOSITORY=MiniCore      # Github repo
+AUTHOR=cylaswdcdigital      # Github username
+REPOSITORY=DC-BOARDS     # Github repo
 
-DWTOOLSVERSION=2.3.2
 
 # Get the download URL for the latest release from Github
 DOWNLOAD_URL=$(curl -s https://api.github.com/repos/$AUTHOR/$REPOSITORY/releases/latest | grep "tarball_url" | awk -F\" '{print $4}')
 
+printf "${DOWNLOAD_URL}"
 # Download file
-wget --no-verbose $DOWNLOAD_URL
+wget  $DOWNLOAD_URL
 
 # Get filename
 DOWNLOADED_FILE=$(echo $DOWNLOAD_URL | awk -F/ '{print $8}')
