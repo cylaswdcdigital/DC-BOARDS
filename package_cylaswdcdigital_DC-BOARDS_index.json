@@ -13,14 +13,14 @@
           "category": "Contributed",
           "url": "https://cylaswdcdigital.github.io/DC-BOARDS/DC-BOARDS-2.0.zip",
           "archiveFileName": "DC-BOARDS-2.0.zip",
-          "checksum": "SHA-256:d3e145ca5b7d7725753795f58b424a02c9902c62c101de5233f4695509b50fc5",
-          "size": "13,325,772",
+          "checksum": "SHA-256:9f8a9c56b31bba1f542f7da29c56e649b31f83abff5ce99ac37e3ec2c8c94993",
+          "size": "3,860",
           "boards": [
             {
-              "name": "ATmega328/P/PA/A"
+              "name": "ATmega328P"
             },
             {
-              "name": "ATmega168/P/PA/A"
+              "name": "ATmega168P"
             }
           ],
           "toolsDependencies": [
